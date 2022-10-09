@@ -4,14 +4,14 @@ url : "https://asmit-a.github.io"
 
 # Blog Settings
 theme_settings :
-  title : Testing
+  title : Asmita Majumder
   favicon : assets/favicon.ico
 
   # Profile Settings
   profile :
     image : assets/img/smile.png
     username : Asmita Majumder
-    description : creator of Grape-Theme! Grape-Theme is my first jekyll theme and you can customize this theme easily.
+    description : UCLA '22, B.S. in Applied Mathematics with a Specialization in Computing and a Minor in Bioinformatics :)
     experience :
       - start : 2017-05-03
         end : 2018-05-06
@@ -22,9 +22,9 @@ theme_settings :
         
   # Icons
   icons :
-    email:  # Full email address, e.g. "sample@google.com"
+    email:  asmitaroymajumder@gmail.com # Full email address, e.g. "sample@google.com"
     linkedin:  # Full URL 
-    github: naye0ng
+    github: asmit-a
     gitlab: 
     bitbucket: 
     google_plus:

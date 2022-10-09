@@ -1,10 +1,10 @@
 # Site Settings
 baseurl: ""
-url : "https://naye0ng.github.io"
+url : "https://asmit-a.github.io"
 
 # Blog Settings
 theme_settings :
-  title : Grape Theme
+  title : Testing
   favicon : assets/favicon.ico
 
   # Profile Settings

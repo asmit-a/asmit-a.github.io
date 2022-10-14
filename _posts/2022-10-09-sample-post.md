@@ -7,6 +7,6 @@ author:
 comments : 
 ---
 
-I am trying to make a sample post here, just to make sure that this works the way I think it works. 
+I1 am trying to make a sample post here, just to make sure that this works the way I think it works. 
 
 Let's see how it goes! :D

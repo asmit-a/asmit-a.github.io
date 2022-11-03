@@ -37,6 +37,33 @@
     summary : This is Dummy
     description :  
     
+# INFLUENCER PRICING PROJECT
+- project :
+    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url :  # Full URL
+    image : # path: assets/project/
+    date : 2019.06.09 - Developing
+    title : Instagram Influencer Pricing 
+    summary : Testing sigh
+    description : 
+    contents : Link to full writeup can be found here. 
+
+
+# CLUSTERING PROJECT
+- project :
+    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url :  # Full URL
+    image : # path: assets/project/
+    date : 2019.06.09 - Developing
+    title : Clustering Implementation Project
+    summary : This is not my penguin classifier project!
+    description : 
+    contents : Link to full writeup can be found here. 
+
+
+
 # U.S. CENSUS PROJECT
 - project :
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 

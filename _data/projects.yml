@@ -36,12 +36,25 @@
     title : Dummy project
     summary : This is Dummy
     description :  
+    
+# U.S. CENSUS PROJECT
+- project :
+    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url :  # Full URL
+    image : # path: assets/project/
+    date : 2019.06.09 - Developing
+    title : Penguin Classifier 
+    summary : This is my penguin classifier project!
+    description : 
+    contents : Link to full writeup can be found here. 
+
 
 # PENGUINS PROJECT
 - project :
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url :  # Full URL
+    url :  https://github.com/asmit-a/penguin-classification # Full URL
     image : # path: assets/project/
     date : 2019.06.09 - Developing
     title : Penguin Classifier 

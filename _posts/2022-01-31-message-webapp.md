@@ -1,6 +1,10 @@
 ---
 layout: post
-title: Blog Post 2
+title: Messaging WebApp Using Flask
+subtitle : Creating a Flask webapp where users can submit and view messages
+tags: [python, flask, SQL]
+author: Asmita Majumder
+comments : False
 ---
 
 In this blog post, we will use Flask to create a webapp that accepts messages from users, stores them in a database, and displays them randomly. 

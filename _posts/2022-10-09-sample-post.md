@@ -1,12 +1,14 @@
 ---
 layout: post
-title: Sample Post
-subtitle : Here is a sample post.
-tags: [post, sample]
+title: Palmer Penguin Classifier
+subtitle : A project in which penguins are classified based on certain physical features using machine learning models from the scikit-learn library.
+tags: [Python, sample]
 author: 
 comments : 
 ---
 
-I1 am trying to make a sample post here, just to make sure that this works the way I think it works. 
+Add a description of the project and its basic concepts HERE. 
 
-Let's see how it goes! :D
+A PDF of the final Jupyter Notebook can be found <a href="https://github.com/asmit-a/penguin-classification">here</a>.
+
+TO DO: INCLUDE THE WHOLE JUPYTER NOTEBOOK (converted to MD) HERE!

@@ -1,6 +1,11 @@
 ---
 layout: post
 title: Climate Visualization
+subtitle : Visualizing NOAA climate data using Plotly
+tags: [python, SQL, data viz]
+author: Asmita Majumder
+comments : False
+
 ---
 
 In this blog post, we'll explore the NOAA climate data using several interesting and interactive data visualizations. 

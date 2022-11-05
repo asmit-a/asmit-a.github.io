@@ -2,7 +2,7 @@
 layout: post
 title: Palmer Penguin Classifier
 subtitle : A project in which penguins are classified based on certain physical features using machine learning models from the scikit-learn library.
-tags: [Python, sample]
+tags: [Python, ML]
 author: 
 comments : 
 ---

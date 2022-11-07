@@ -1,6 +1,10 @@
 ---
 layout: post
-title: Blog Post 3
+title: Movie Recommender
+subtitle : Using a webscraper to create a program that recommends movies or TV shows to watch
+tags: [python, webscraping]
+author: Asmita Majumder
+comments : True
 ---
 
 In Blog Post 3, we will use the question of *"What movie or TV shows share actors with your favorite movie or show?"* to generate a list of recommendations of TV shows and movies we should watch next. 

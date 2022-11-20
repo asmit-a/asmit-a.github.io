@@ -65,7 +65,7 @@ plt.scatter(X[:,0], X[:,1], c = km.predict(X))
 
 
     
-![output_4_1.png](/assets/img/output_4_1.png)
+![output_44_1.png](/assets/img/output_44_1.png)
     
 
 

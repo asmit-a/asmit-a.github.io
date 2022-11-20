@@ -39,7 +39,7 @@ plt.scatter(X[:,0], X[:,1])
 
 
 
-![output_2_1.png](/images/output_2_1.png)
+![output_2_1.png](/assets/img/output_2_1.png)
     
 
 
@@ -65,7 +65,7 @@ plt.scatter(X[:,0], X[:,1], c = km.predict(X))
 
 
     
-![output_4_1.png](/images/output_4_1.png)
+![output_4_1.png](/assets/img/output_4_1.png)
     
 
 
@@ -349,7 +349,7 @@ plt.scatter(X[:,0], X[:,1], c = (z_min >= 0))
 
 
     
-![output_35_1.png](/images/output_35_1.png)
+![output_35_1.png](/assets/img/output_35_1.png)
     
 
 There's a few stragglers, but for the most part, it looks like we did a pretty good job clustering our data! The cluster colors match up with clusters that we would expect based on the data's shape.
@@ -392,7 +392,7 @@ plt.scatter(X[:,0], X[:,1], c = (z_eig <= 0))
 
 
     
-![output_39_1.png](/images/output_39_1.png)
+![output_39_1.png](/assets/img/output_39_1.png)
     
 
 It worked pretty well! There's one stray yellow dot in the realm of the purple, but it seems that everything else was clustered perfectly. 
@@ -452,7 +452,7 @@ plt.scatter(X[:,0], X[:,1], c = labels)
 
 
     
-![output_42_1.png](/images/output_42_1.png)
+![output_42_1.png](/assets/img/output_42_1.png)
     
 ...and it works!
 
@@ -478,7 +478,7 @@ plt.scatter(X[:,0], X[:,1], c = labels)
 
 
     
-![output_44_1.png](/images/output_44_1.png)
+![output_44_1.png](/assets/img/output_44_1.png)
     
 
 ### Noise = 0.03
@@ -499,7 +499,7 @@ plt.scatter(X[:,0], X[:,1], c = labels)
 
 
     
-![output_45_1.png](/images/output_45_1.png)
+![output_45_1.png](/assets/img/output_45_1.png)
     
 
 ### Noise = 0.05
@@ -520,7 +520,7 @@ plt.scatter(X[:,0], X[:,1], c = labels)
 
 
     
-![output_46_1.png](/images/output_46_1.png)
+![output_46_1.png](/assets/img/output_46_1.png)
     
 
 ### Noise = 0.07
@@ -541,7 +541,7 @@ plt.scatter(X[:,0], X[:,1], c = labels)
 
 
     
-![output_47_1.png](/images/output_47_1.png)
+![output_47_1.png](/assets/img/output_47_1.png)
     
 
 ### Noise = 0.09
@@ -562,7 +562,7 @@ plt.scatter(X[:,0], X[:,1], c = labels)
 
 
     
-![output_48_1.png](/images/output_48_1.png)
+![output_48_1.png](/assets/img/output_48_1.png)
 
 
 We notice that as we increase the noise, our data points get "fuzzier" and less compact. Regardless of the noise, however, our clustering algorithm works fairly well! For our first four plots, where the `noise` takes on values between 0.01 and 0.07, `spectral_clustering` is perfect; as we increase the `noise` to 0.09, we observe that our function has more difficulty with accurate clustering and mislabels some of the data points that are near the edges, but overall it still performs decently well. 
@@ -588,7 +588,7 @@ plt.scatter(X[:,0], X[:,1])
 
 
     
-![output_50_1.png](/images/output_50_1.png)
+![output_50_1.png](/assets/img/output_50_1.png)
     
 
 The plot shows two concentric circles. If we try to apply k-means clustering to these points, we don't get a satisfactory result:
@@ -608,7 +608,7 @@ plt.scatter(X[:,0], X[:,1], c = km.predict(X))
 
 
     
-![output_51_1.png](/images/output_51_1.png)
+![output_51_1.png](/assets/img/output_51_1.png)
     
 
 Let's try spectral clustering instead, and play around with different values of `epsilon`. This is not pictured below, but is easily done by changing the `epsilon` argument of the `spectral_clustering` method.
@@ -628,7 +628,7 @@ plt.scatter(X[:,0], X[:,1], c = labels)
 
 
     
-![output_52_1.png](/images/output_52_1.png)
+![output_52_1.png](/assets/img/output_52_1.png)
     
 
 

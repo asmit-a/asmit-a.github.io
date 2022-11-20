@@ -1,6 +1,10 @@
 ---
 layout: post
-title: Blog Post 4
+title: Spectral Clustering Algorithm
+subtitle : idk
+tags: [python]
+author: Asmita Majumder
+comments : True
 ---
 
 In this blog post, we'll develop a simplified version of a spectral clustering algorithm that can be used to group complex distributions of data points. 
